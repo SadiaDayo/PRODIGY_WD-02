@@ -30,7 +30,6 @@ footer {
     text-align: center;
     user-select: none;
 }
-
 .container {
     background: #1b3448;
     display: flex;
@@ -43,10 +42,10 @@ footer {
     margin: 150px auto;
     padding: 25px;
     border-radius: 5px;
-    animation: slideIn 1s ease-in-out;
-    animation: glow 2s infinite alternate;
+    animation: slideIn 1s ease-in-out, glow 2s infinite alternate;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5); 
 }
+
 @keyframes glow {
   from {
       box-shadow: 0 0 20px 5px rgba(156, 155, 155, 0.5);
